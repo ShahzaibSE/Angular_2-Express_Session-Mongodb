@@ -1,0 +1,103 @@
+.nav_heading
+{
+    display:inline;
+}
+
+#first_nav
+{
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+.second_third_nav
+{
+    margin-left:20px;
+    margin-top:20px;
+}
+
+#navbar
+{
+    /*background-color: lightcoral;*/
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.navbar-default
+{
+    background-color: lightcoral;
+}
+
+/*------------------------Background Image---------------------------*/
+#background_image
+{
+    background-image: url('./../images/landscape.jpg');
+    background-attachment: fixed;
+}
+
+/*-------------------------Image Area--------------------------*/
+#Image_Area
+{
+ margin-top:150px;
+ position:relative;
+ left:580px;
+}
+
+/*------------------Name Text------------------*/
+#profile_name
+{
+    /*text-align:center;*/
+    color:white;
+    font-size:30px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#about_me
+{
+    width:600px;
+    color:white;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    /*background-color:cornflowerblue;*/
+    /*padding:20px 10px 20px 10px;*/
+    position:relative;
+    left:380px;
+    top:30px;
+    /*opacity: 0.85;*/
+    font-family:Calibri;
+}
+
+.button_text
+{
+  font-size:30px;
+  font-weight:bold;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 20px;
+}
+
+/*-------------------------Images Twitter,Facebook,Github------------------------*/
+
+#image_section
+{
+    margin-top:80px;
+}
+
+.images
+{
+    width:100;
+    height:100;
+    margin-right:20px;
+}
+
+#first_image
+{
+    margin-left:510px;
+}
+
+.nav_heading:hover
+{
+    background-color: darkgrey;
+}
+

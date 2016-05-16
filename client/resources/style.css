@@ -1,0 +1,116 @@
+#body_background
+{
+    background-image:url(Notebook.jpg);
+    background-size: 1400px;
+}
+
+#main_area
+{
+  width:800px;
+  border-style: solid;
+  border-color: #000000;
+    margin-left: 200px;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    background-color: lightcoral;
+    opacity: 0.8;
+}
+
+#login_heading
+{
+    text-align:center;
+    font-family:Comic Sans MS;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+#fields_labels
+{
+    width:800px;
+    position:relative;
+    margin-left:200px;
+    padding-top: 60px;
+    border-style: solid;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color:black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Username
+{
+    margin-left:150px;
+    margin-bottom: 20px;
+}
+
+.g_position
+{
+    position:relative;
+    right:50px;
+    top:12px;
+    bottom:5px;
+    right:300px;
+    display: inline;
+    font-size:30px;
+    border-radius: 10px;
+}
+
+.label
+{
+    font-family:"Comic Sans MS";
+    font-weight: bold;
+    color:black;
+    font-size:25px;
+}
+
+.textfield
+{
+    /*padding-left: 10px;*/
+    padding:10 60 10 60;
+    text-align:center;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+}
+
+#Password
+{
+    margin-left:150px;
+    margin-top:20px;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: limegreen;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top:20px;
+    position:relative;
+    left:280px;
+    font-family: "Comic Sans MS";
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#button
+{
+    padding-bottom: 30px;
+    position:relative;
+    left:80px;
+}

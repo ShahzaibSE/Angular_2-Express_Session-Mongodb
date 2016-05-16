@@ -1,0 +1,20 @@
+ <br/>
+ <div class="col-lg-6" id="form_heading">
+      <h1>Enter Your Data</h1>
+      <br/>
+  </div>
+   
+      <div class="col-lg-12 col-sm-12" id="form_section">
+
+          <form method="POST">
+              <label>Username:</label>
+              <input class="form-control" type="text" name="username" #username>
+              <br/>
+              <label>Password:</label>
+              <input class="form-control" type="text" name="password" #password>
+              <br/>
+              <br/>
+              <input id="submit" type="submit" class="btn btn-lg btn-success" value="Submit" (click)="LogIn(username,password)">
+          </form>
+
+      </div>

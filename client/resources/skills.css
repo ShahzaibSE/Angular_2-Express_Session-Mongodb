@@ -1,0 +1,48 @@
+.background
+{
+    background-image: url('./../images/landscape.jpg');
+}
+
+#progress_bar_section
+{
+    position:relative;
+    left:280px;
+    margin-top:70px;
+}
+
+.progress_bar_dimensions_All
+{
+    width:60%;
+    height:40px;
+}
+
+#progress_bar_dimensions_1 {
+    height: 80px;
+    width: 75%;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+#progress_bar_dimensions_2 {
+    height: 80px;
+    width: 80%;
+}
+
+#progress_bar_dimensions_3 {
+    height: 80px;
+    width: 70%;
+}
+
+#progress_bar_dimensions_4 {
+    height: 80px;
+    width: 70%;
+}
+
+/*---Progress bar headings---*/
+
+.progress_bar_heading
+{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:white;
+  margin-left:340px;
+}
